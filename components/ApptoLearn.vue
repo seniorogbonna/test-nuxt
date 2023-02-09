@@ -3,10 +3,8 @@
     <h1>What you'll learn</h1>
     <div class="d-flex">
       <img src="/img/done-icon.png" width="15px" height="15px" alt="">
-      <div class="w-half pl-5">divarticipants will be able to carry out the most common retouching, photomontage and
-        digital
-        image development
-        activities at a professional level</div>
+      <div class="w-half pl-5">I partecipanti saranno in grado di espletare alle più diffuse attività di ritocco,
+        fotomontaggio e sviluppo dell'immagine digitale a livello professionale</div>
     </div>
   </div>
   <div class="card-2 mt-8 border p-4 mt-4 w-60">

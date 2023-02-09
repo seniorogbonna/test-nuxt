@@ -1,5 +1,5 @@
 <template>
-  <div @click="" class="d-flex w-60 accordion-item-section pointer">
+  <div class="d-flex w-60 accordion-item-section pointer">
     <svg fill="#5624d0" height="14px" width="14px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"
       style="margin-left: 4px; padding: 9px;">
@@ -28,6 +28,7 @@ export default {
   name: 'course-item',
   props: ['courseItem'],
 }
+
 </script>
 
 <style lang="postcss">
