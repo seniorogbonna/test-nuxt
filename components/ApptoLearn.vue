@@ -15,7 +15,7 @@
       This course was selected for our collection of top-rated courses trusted by businesses worldwide.
       <span class="purple-color border-bottom">Learn More</span>
     </div>
-    <div class="pt-4"><img alt="Nasdaq" height="38" width="115"
+    <div class="pt-4 d-flex justify-content-around"><img alt="Nasdaq" height="38" width="115"
         src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg">
       <img alt="Volkswagen" height="38" width="44" src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg">
       <img alt="Box" height="38" width="67" src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg">
@@ -57,6 +57,10 @@
 
 .border-bottom {
   border-bottom: 1px soild;
+}
+
+.justify-content-around {
+  justify-content: space-around;
 }
 </style>
 
