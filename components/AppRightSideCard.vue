@@ -24,7 +24,7 @@
       <img src="/img/trophy-icon.png" width="16px" height="16px" alt="">
       <span class="ml-3">Certificate of completion</span>
     </div>
-    <div class="d-flex justify-content-between line-group">
+    <div class="d-flex justify-content-between line-group" style="padding: 10px;">
       <a class="text-black font-bold" href="">Share</a>
       <a class="text-black font-bold" href="">Gift this course</a>
       <a class="text-black font-bold" href="">Apple coupon</a>
