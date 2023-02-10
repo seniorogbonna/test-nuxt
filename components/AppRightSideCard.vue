@@ -4,8 +4,8 @@
       <img src="/img/pound-icon.png" style="width:23px;height:19px;margin-top:3px;" alt="">
       <h2>44.99</h2>
     </div>
-    <button class="w-full bg-purple cart-button">Add to cart</button>
-    <button class="w-full buy-button font-bold">Buy Now</button>
+    <button class="w-full bg-purple cart-button border-color-lightblack">Add to cart</button>
+    <button class="w-full buy-button font-bold border-color-lightblack">Buy Now</button>
     <p style="text-align: center;">30-Day Money-Back Guarantee</p>
     <h3>This course includes: </h3>
     <div class="d-flex align-items-center" style="padding: 6px">
@@ -32,7 +32,7 @@
     <h3 class="border-top" style="padding-left: 10px; margin-top: 30px; padding-top: 20px;">Training 5 or more people?
     </h3>
     <p style="padding: 10px;">Get your team access to 19,000+ top Udemy courses anytime, anywhere.</p>
-    <button class="try-button">Try Udeny business</button>
+    <button class="try-button border-color-lightblack">Try Udeny business</button>
 
   </div>
 </template>
@@ -44,11 +44,14 @@
 
 .right-side-card-section {
   width: 25%;
-  background-color: white;
+  background-color: #fff;
   right: 5%;
   top: 9%;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #d1d7dc;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 
 .bg-purple {
@@ -85,5 +88,9 @@
   background-color: white;
   width: 100%;
   font-weight: bold;
+}
+
+.border-color-lightblack {
+  border-color: #d1d7dc;
 }
 </style>
