@@ -10,6 +10,7 @@
       <AppCourseContent />
       <AppInstructor />
       <AppReviews />
+      <AppMoreCourses />
     </div>
   </div>
 </template>
