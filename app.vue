@@ -1,6 +1,7 @@
 <template>
   <div>
     <Appheader />
+
     <ApptitleMenu />
     <div class="pl-10">
       <ApptoLearn />
@@ -11,7 +12,7 @@
       <AppInstructor />
       <AppReviews />
       <AppMoreCourses />
-
+      <AppRightSideCard />
     </div>
     <AppFooter />
   </div>
