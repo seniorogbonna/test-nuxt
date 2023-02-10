@@ -11,8 +11,9 @@
       <AppInstructor />
       <AppReviews />
       <AppMoreCourses />
-      <AppFooter />
+
     </div>
+    <AppFooter />
   </div>
 </template>
 
