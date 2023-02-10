@@ -8,6 +8,8 @@
       <AppDescription />
       <AppCourseList />
       <AppCourseContent />
+      <AppInstructor />
+      <AppReviews />
     </div>
   </div>
 </template>
