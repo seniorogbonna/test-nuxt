@@ -21,11 +21,6 @@
 
 
 <style lang="postcss">
-.d-flex {
-  display: flex;
-  flex-direction: row;
-}
-
 .header-div {
   padding-left: 20px;
   padding-right: 20px;

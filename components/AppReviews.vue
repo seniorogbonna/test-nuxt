@@ -5,7 +5,7 @@
     5K ratings
   </h1>
 
-  <div class="d-flex flex-wrap justify-content-between">
+  <div class="d-flex flex-wrap justify-content-between w-60">
     <AppReviewItem class="w-46 review-item-section" v-for="(reviewItem, i) in reviews" :reviewData=reviewItem
       :key="i" />
   </div>

@@ -56,11 +56,6 @@
 </script>
 
 <style lang="postcss">
-.d-flex {
-  display: flex;
-  flex-direction: row;
-}
-
 .w-half {
   width: 50%;
 }
