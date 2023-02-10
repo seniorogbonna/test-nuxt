@@ -1,6 +1,6 @@
 <template>
   <div class="w-32">
-    <img src="/img/image.jpg" width="100%" height="30%" alt="">
+    <img src="/img/image.jpg" width="100%" height="40%" alt="">
     <h4>Adobe Illustrator CC: Il corso essenziale da zero ad esperto</h4>
     <p>Albert Comper</p>
     <div class="d-flex align-items-center">
