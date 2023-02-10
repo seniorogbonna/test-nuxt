@@ -3,7 +3,7 @@
     <h3 class="color-white pt-5 pl-5 pb-3">
       Top companies choose <span class="purple-color"> Udemy Business</span> to build in-demand career skills.
     </h3>
-    <div class="d-flex justify-content-between align-items-center pr-3">
+    <div class="d-flex justify-content-between align-items-center pr-3 flex-full pl-3">
       <img alt="Nasdaq" height="38" width="115" src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg">
       <img alt="Volkswagen" height="38" width="44" src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg">
       <img alt="Box" height="38" width="67" src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg">
