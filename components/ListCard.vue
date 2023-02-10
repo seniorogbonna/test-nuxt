@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex padding-listItem border-bottom border-color-gray w-60">
-    <img :src="listItem.url" width="60px" height="60px" alt="">
+    <img :src="listItem.url" width="60" height="60" alt="">
     <div class="d-flex">
       <div class="pl-1 w-60">
         <div class="font-bold font-17">{{ listItem.courseName }}</div>
