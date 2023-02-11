@@ -3,7 +3,7 @@
     <Appheader />
 
     <ApptitleMenu />
-    <div class="pl-10">
+    <div class="pl-10 position-relative">
       <ApptoLearn />
       <AppRequirements />
       <AppDescription />
@@ -22,7 +22,16 @@
 .pl-10 {
   padding-left: 134px;
 }
+
+.position-relative {
+  position: relative;
+}
 </style>
+
+<script setup>
+
+
+</script>
 
 
 

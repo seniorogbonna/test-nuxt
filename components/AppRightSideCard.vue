@@ -1,5 +1,9 @@
 <template>
-  <div class="position-fixed right-side-card-section">
+  <div v-show="isVisible"
+    :class="scrollPosition < 300 ? 'position-absolute right-side-card-section' : 'position-fixed right-side-card-section'"
+    style="overflow: auto">
+    <img src="/img/image.jpg" :class="scrollPosition < 300 ? 'display-block' : 'display-none'" width="100%"
+      height="250px" alt="">
     <div class="d-flex align-items-center">
       <img src="/img/pound-icon.png" style="width:23px;height:19px;margin-top:3px;" alt="">
       <h2>44.99</h2>
@@ -37,9 +41,27 @@
   </div>
 </template>
 
-<style lang="postcss">
+<style lang="css">
 .position-fixed {
   position: fixed;
+  display: block;
+  top: -300px;
+  animation-duration: 550ms;
+  animation-name: example;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.display-none {
+  display: none;
 }
 
 .right-side-card-section {
@@ -93,4 +115,46 @@
 .border-color-lightblack {
   border-color: #d1d7dc;
 }
+
+.position-absolute {
+  position: absolute;
+  top: -300px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
 </style>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      scrollPosition: 0,
+      isVisible: true,
+    }
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+      console.log(window.scrollY);
+      // this.isVisible = this.scrollPosition == 300 ? false : true;
+      // if (this.scrollPosition == 300) {
+      //   this.isVisible = false;
+      //   setTimeout(() => this.isVisible = true, 500)
+      // }
+
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll);
+  }
+
+}
+
+
+</script>
